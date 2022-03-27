@@ -85,8 +85,6 @@ def prepare_data(base_path, meds_path):
     base_df = base_df[base_df["id"].isin(meds_ids)]
     base_ids = set(base_df["id"])
 
-    assert base_ids == meds_ids
-
     vec_df = multihot_encode_meds(meds_df)
 
     result = pd.merge(
