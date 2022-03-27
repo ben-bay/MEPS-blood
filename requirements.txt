@@ -1,0 +1,7 @@
+lightgbm
+numpy
+pandas
+scikeras
+scikit-learn
+tabulate
+tensorflow
