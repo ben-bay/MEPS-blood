@@ -16,4 +16,4 @@ The best solution I found is a stacked ensemble model that achieves F1 of 0.813
 
 Takes between 8 seconds and 2.5 minutes on M1 Macbook Pro, depending on command line arguments. Run like this:
 
-	python3 run\_solution.py [--base] [--meds] [--stack] [--deep] [--help]
+	python3 run_solution.py [--base] [--meds] [--stack] [--deep] [--help]
